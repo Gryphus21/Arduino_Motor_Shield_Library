@@ -1,0 +1,63 @@
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+CHN_A_DIRECTION_PIN	LITERAL1
+CHN_A_SPEED_PIN	LITERAL1
+CHN_A_BRAKE_PIN	LITERAL1
+CHN_A_SENS_PIN	LITERAL1 
+
+CHN_B_DIRECTION_PIN	LITERAL1
+CHN_B_SPEED_PIN	LITERAL1
+CHN_B_BRAKE_PIN	LITERAL1
+CHN_B_SENS_PIN	LITERAL1
+
+FORWARD	LITERAL1
+BACKWARD	LITERAL1
+BRAKE_ENABLE	LITERAL1
+BRAKE_DISABLE	LITERAL1
+
+VOLT_X_AMPS	LITERAL1
+
+L298P_MAX_CURRENT_SINGLE_CHANNEL	LITERAL1
+L298P_MAX_CURRENT_FULL_CHANNEL	LITERAL1
+
+IN3_PIN	LITERAL1
+IN2_PIN	LITERAL1
+OUT5_PIN	LITERAL1
+OUT6_PIN	LITERAL1
+
+ADC_ADJUST	LITERAL1
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ArduinoMotorShield	KEYWORD1
+a	KEYWORD1
+b	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+init	KEYWORD2
+
+setCurrentProtection	KEYWORD2
+setMxCurrentProtection	KEYWORD2
+
+setDirection	KEYWORD2
+setSpeed	KEYWORD2
+setBrake	KEYWORD2
+
+getDirection	KEYWORD2
+getSpeed	KEYWORD2
+getBrake	KEYWORD2
+
+getDirectionPin		KEYWORD2
+getSpeedPin		KEYWORD2
+getBrakePin		KEYWORD2
+
+getCurrent	KEYWORD2
+getADC	KEYWORD2
